@@ -14,13 +14,22 @@ public class Dialogue : MonoBehaviour
 
     public void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
-            Canvas.gameObject.SetActive(true);
+
+            if (Time.timeScale == 1)    
+            {
+                Time.timeScale = 0;
+                Canvas.gameObject.SetActive(true);
+
+            }
+            else
+            {
+                Time.timeScale = 1;
+                Canvas.gameObject.SetActive(false);
+            }
+
         }
-        if (Input.GetKeyUp(KeyCode.Tab))
-        {
-            Canvas.gameObject.SetActive(false);
-        }
+            
     }
 }
