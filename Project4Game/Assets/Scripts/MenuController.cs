@@ -14,12 +14,26 @@ public class MenuController : MonoBehaviour
     {
 
     }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
     public void FirstLevel()
     {
         SceneManager.LoadScene("Level1");
     }
 
     public void SecondLevel() 
+    {
+        SceneManager.LoadScene("Level2");
+    }
+
+    public void ThirdLevel()
     {
         SceneManager.LoadScene("Level2");
     }
