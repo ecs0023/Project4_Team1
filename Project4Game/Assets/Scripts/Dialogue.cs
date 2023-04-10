@@ -6,21 +6,21 @@ using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour
 {
-    public GameObject Textbox;
+    public GameObject Canvas;
     public void Start()
     {
-        Textbox.gameObject.SetActive(false);
+        Canvas.gameObject.SetActive(false);
     }
 
     public void Update()
     {
         if(Input.GetKeyDown(KeyCode.Tab))
         {
-            Textbox.gameObject.SetActive(true);
+            Canvas.gameObject.SetActive(true);
         }
         if (Input.GetKeyUp(KeyCode.Tab))
         {
-            Textbox.gameObject.SetActive(false);
+            Canvas.gameObject.SetActive(false);
         }
     }
 }
