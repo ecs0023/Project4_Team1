@@ -195,7 +195,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.008995645, y: 0.039576173}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -206,7 +206,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.5058979, y: 1.0791523}
   m_EdgeRadius: 0
 --- !u!212 &84839185
 SpriteRenderer:
@@ -268,8 +268,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84839181}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.34, y: 2.46, z: 0}
-  m_LocalScale: {x: 0.87626, y: 0.87626, z: 0.87626}
+  m_LocalPosition: {x: 3.5, y: 2.46, z: 0}
+  m_LocalScale: {x: 1.6043444, y: 1.6043444, z: 1.6043444}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 777286147}
@@ -286,7 +286,7 @@ Animator:
   m_GameObject: {fileID: 84839181}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1170a7baf71a59d4c98a820b565c2eb4, type: 2}
+  m_Controller: {fileID: 9100000, guid: b389e59216a2618429abf75f7049e658, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -776,7 +776,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.46226418, g: 0.45208853, b: 0.45208853, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -818,7 +818,7 @@ Transform:
   m_GameObject: {fileID: 1659640385}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.01, y: 0.04, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9998822, y: 0.9998822, z: 0.9998822}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
