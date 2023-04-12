@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
-    
+    public float adjust;
     public int Health;
     public float moveSpeed = 5f;
     public Transform player;
@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour
     {
         Vector3 direction = player.position - transform.position;
         float angle= Mathf.Atan2(direction.y, direction.x)*Mathf.Rad2Deg;
-        rb.rotation = angle;
+        rb.rotation = angle-adjust;
         direction.Normalize();
         movement = direction;
     }
